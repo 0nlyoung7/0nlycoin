@@ -1,7 +1,7 @@
 package main
 
-import "github.com/0nlyoung7/0nlycoin/rest"
+import "github.com/0nlyoung7/0nlycoin/cli"
 
 func main() {
-	rest.Start(4000)
+	cli.Start()
 }
